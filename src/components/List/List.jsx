@@ -31,7 +31,7 @@ const List = ({
         .map((_, i) => refs[i] || createRef())
     );
   }, [places]);
-  console.log({ elRefs });
+  console.log({ placesLoading });
   return (
     <div className={classes.container}>
       <Typography variant="h4">
